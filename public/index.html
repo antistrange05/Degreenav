@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutgers SAS Degree Planner </title>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px 15px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #cc0033;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .status {
+            font-weight: bold;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        label {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        select, button {
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #cc0033;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #cc0033;
+        }
+        .totals {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Interactive Degree Planner</h1>
+
+    <form id="courseForm">
+        <label for="requirement">Requirement:</label>
+        <select id="requirement" required>
+            <option value="">Select Requirement</option>
+            <option value="CCD">Diversities and Social Inequalities [CCD] (3 credits)</option>
+            <option value="CCO">Our Common Future [CCO] (3 credits)</option>
+            <option value="NS">Natural Sciences [NS] (6 credits)</option>
+            <option value="HST">Historical Analysis [HST] (3 credits)</option>
+            <option value="SCL">Social Analysis [SCL] (3 credits)</option>
+            <option value="AHp">Arts & Humanities [AHp] (3 credits)</option>
+            <option value="AHq">Arts & Humanities [AHq] (3 credits)</option>
+            <option value="AHr">Arts & Humanities [AHr] (3 credits)</option>
+            <option value="AHo">Arts & Humanities [AHo] (3 credits)</option>
+            <option value="WCr">Writing and Communication [WCr] (3 credits)</option>
+            <option value="WCd">Writing and Communication [WCd] (3 credits)</option>
+            <option value="WC">Writing and Communication [WC] (3 credits)</option>
+        </select>
+
+        <label for="course">Course:</label>
+        <select id="course" required>
+            <option value="">Select Course</option>
+        </select>
+
+        <label for="semester">Semester:</label>
+        <select id="semester" required>
+            <option value="">Select Semester</option>
+            <option value="Fall 2024">Fall 2024</option>
+            <option value="Spring 2025">Spring 2025</option>
+            <option value="Fall 2025">Fall 2025</option>
+            <option value="Spring 2026">Spring 2026</option>
+            <option value="Fall 2026">Fall 2026</option>
+            <option value="Spring 2027">Spring 2027</option>
+            <option value="Fall 2027">Fall 2027</option>
+            <option value="Spring 2028">Spring 2028</option>
+        </select>
+
+        <label for="status">Status:</label>
+        <select id="status" required>
+            <option value="Completed">Completed</option>
+            <option value="In Progress">In Progress</option>
+            <option value="Not Started">Not Started</option>
+        </select>
+
+        <button type="submit">Add Course</button>
+    </form>
+
+    <div class="totals">
+        <p><strong>Completed Credits:</strong> <span id="completedCredits">0</span></p>
+        <p><strong>Pending Credits:</strong> <span id="pendingCredits">120</span></p>
+    </div>
+
+    <table id="coursesTable">
+        <thead>
+            <tr>
+                <th>Fall 2024</th>
+                <th>Spring 2025</th>
+                <th>Fall 2025</th>
+                <th>Spring 2026</th>
+                <th>Fall 2026</th>
+                <th>Spring 2027</th>
+                <th>Fall 2027</th>
+                <th>Spring 2028</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="row-courses">
+                <td id="Fall 2024"></td>
+                <td id="Spring 2025"></td>
+                <td id="Fall 2025"></td>
+                <td id="Spring 2026"></td>
+                <td id="Fall 2026"></td>
+                <td id="Spring 2027"></td>
+                <td id="Fall 2027"></td>
+                <td id="Spring 2028"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script>
+    let completedCreditsCount = 0;
+    let pendingCreditsCount = 120;
+
+    document.getElementById('requirement').addEventListener('change', function() {
+        const requirement = this.value;
+        const courseDropdown = document.getElementById('course');
+        courseDropdown.innerHTML = '<option value="">Select Course</option>';
+
+        if (requirement) {
+            fetch(`/courses/${requirement}`)
+                .then(response => response.json())
+                .then(courses => {
+                    courses.forEach(course => {
+                        const option = document.createElement('option');
+                        option.value = JSON.stringify(course);
+                        option.textContent = `${course.code}: ${course.name} (${course.credits} credits)`;
+                        courseDropdown.appendChild(option);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching course data:', error);
+                });
+        }
+    });
+
+    document.getElementById('courseForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const courseData = JSON.parse(document.getElementById('course').value);
+        const semester = document.getElementById('semester').value;
+        const status = document.getElementById('status').value;
+
+        const semesterCell = document.getElementById(semester);
+        const courseInfo = document.createElement('div');
+        courseInfo.innerHTML = `
+            <div><strong>${courseData.code}</strong></div>
+            <div>${courseData.name}</div>
+            <div>${courseData.credits} credits</div>
+            <div>${status}</div>
+        `;
+        semesterCell.appendChild(courseInfo);
+
+        if (status === 'Completed') {
+            completedCreditsCount += courseData.credits;
+            document.getElementById('completedCredits').textContent = completedCreditsCount;
+            pendingCreditsCount -= courseData.credits;
+            document.getElementById('pendingCredits').textContent = pendingCreditsCount;
+        }
+        if (status === 'In Progress') {
+            pendingCreditsCount -= courseData.credits;
+            document.getElementById('pendingCredits').textContent = pendingCreditsCount;
+        }
+    });
+</script>
+
+</body>
+</html>

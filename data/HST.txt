@@ -1,0 +1,211 @@
+Course #, Course Title, Credits, Core Codes
+01:013:111, The Bible in Aramaic, 3, HST, AHp
+01:013:120, Literary Egypt: The World of Naguib Mahfouz, 3, HST
+01:013:130, Comics in the Middle East, 3, HST
+01:013:208, Jewish-Muslim Relations: History and Culture, 3, HST
+01:013:217, African Immigrant Literature, 3, CCD, HST
+01:013:220, Introduction to the Qur’an, 3, HST
+01:013:308, Minorities of the Middle East, 3, CCD, HST
+01:016:220, Ancient Africa, 3, HST or SCL
+01:016:222, Modern Africa, 3, HST or SCL
+01:016:224, Women and Gender in African History, 3, HST or SCL
+01:014:205, Islamic Civilization, 3, HST or SCL
+01:014:265, Afro-Brazilian History, 3, HST
+01:014:370, The Afro-Atlantic Diaspora, 3, HST
+01:050:223, Learning from the Past: Early America and the 21st Century, 3, CCD, HST
+01:050:253, Asian American History, 3, HST
+01:050:272, American Food, Past and Present, 3, HST
+01:050:344, Islam in/and America, 3, HST
+01:070:102, Introduction to Human Evolution, 4, NS, HST
+01:070:105, Introduction to Archaeology, 4, HST
+01:070:112, World Prehistory, 3, HST
+01:070:238, Anthropology of Europe, 3, SCL
+01:070:243, Anthropology of Africa, 3, HST or SCL
+01:070:283, French Gastronomy and Global Food Culture, 3, CCO, HST
+01:082:105, Introduction to Art History (pre-history to 1400), 3, HST, AHp
+01:082:106, Introduction to Art History (1400 to the present), 3, HST, AHp
+01:082:118, Looking at Twenty First-Century World History, 3, CCO, HST
+01:082:214, Renaissance Art in Europe, 3, HST, AHp
+01:082:277, Art and Medicine, 3, HST, AHp
+01:098:241, East Asian Civilizations: Premodern Era, 3, HST or SCL, WCr or WCd
+01:098:250, Global East Asia, 4, CCO, HST or SCL
+01:098:252, Southeast Asia and the World, 3, HST or SCL
+01:165:215(was 01:165:125), Introduction to Chinese Civilization, 3, HST, AHp
+01:165:220, Chinese Classics and Thought: Confucianism, Daoism, and Buddhism, 3, HST, AHo
+01:190:205, Greek Civilization, 3, HST, AHo or AHp
+01:190:206, Roman Civilization, 3, HST, AHo or AHp
+01:190:211, Greek and Roman Religion, 3, HST, AHo
+01:190:213, Science and Technology in Ancient Greece and Rome, 3, HST
+01:190:214, Sexuality in Ancient Greece and Rome, 3, HST, AHp
+01:190:215, Introduction to Classical Archaeology, 3, HST, AHp
+01:190:309, Greek and Roman Athletics, 3, HST
+01:195:282, Music, Culture, and Memory in the French Speaking World, 3, HST, AHr
+01:195:374, Marx, Nietzsche, Freud, 3, HST, AHo
+01:420:282, Music, Culture, and Memory in the French Speaking World, 3, HST, AHr
+01:420:283, French Gastronomy and Global Food Culture, 3, CCO, HST
+01:450:103, Human Geography: Space, Place and Location, 3, HST or SCL
+01:450:205, World Cultural Regions, 3, HST or SCL
+01:450:211, Environment, Society, and Social Justice, 3, HST or SCL
+01:450:336, Latin America, 3, HST
+01:470:371, Marx, Nietzsche, Freud, 3, HST, AHo
+01:489:205, History of the Byzantine Empire, 3, HST
+01:489:207, Byzantine Civilization, 3, HST
+01:506:101, World History I, 3, HST
+01:506:102, World History II, 3, HST
+01:506:115, World War II in World History, 3, HST
+01:506:151, History and the News, 3, CCO, HST
+01:506:203, Histories of the Pacific, 3, HST
+01:506:210, Sex and Power, 3, HST
+01:506:215, The Modern Girl, 3, HST
+01:506:216, Law and History, 3, CCD, HST
+01:506:218, Terrorism, 3, CCO, HST
+01:506:220, Piracy: A Global History, 3, HST
+01:506:233, History of the Future, 3, CCO, HST
+01:506:226, Contemporary Challenges in International Health, 3, CCO, HST
+01:506:249, Climate Politics: A Deep History, 3, CCO, HST
+01:506:247, The Seas around Us: Ocean History in Global Perspective, 3, HST
+01:506:250, Science, Collecting, and Power, 3, CCO, HST
+01:506:251, History of Science and Society, 3, HST
+01:506:255, Science, Nature, and Empire, 3, CCO, HST
+01:506:260, Wars, Wayfarers and the Wall: A History of the U.S.-Mexican Border, 3, CCO, HST
+01:506:271, Jewish History I: Ancient and Medievalformerly Jewish History: Ancient and Medieval, 3, HST
+01:506:272, Jewish History II: Modernformely Jewish History: Modern, 3, HST
+01:506:325, Living on the Edge: Human Societies in Extreme Environments, 3, HST
+01:508:110, Political Islam, 3, CCO, HST
+01:508:201, Islamic Civilization, 3, HST or SCL
+01:508:205, History of the Modern Middle East, 3, HST or SCL
+01:508:208, Jewish-Muslim Relations: History and Culture, 3, HST
+01:508:209, Jerusalem Contested: A City's History from Jewish, Christian, and Muslim Perspectives, 3, HST
+01:508:212, Israeli-Palestinian Conflict, 3, CCD, HST
+01:508:220, Ancient Africa, 3, HST or SCL
+01:508:222, Modern Africa, 3, HST or SCL
+01:508:224, Women and Gender in African History, 3, HST or SCL
+01:508:226, War and Violence in Africa, , CCD, HST
+01:508:230, The Making of Modern India and Pakistan, 3, HST
+01:508:240, Classical Asia, 3, HST
+01:508:242, Modern East Asia, 3, HST
+01:508:246, History of Chinese Civilization, 3, HST
+01:508:250, Southeast Asia and the World, 3, HST or SCL
+01:508:262, Modern Latin America, 3, HST
+01:508:265, Afro-Brazilian History, 3, HST
+01:508:271, History of the Caribbean to 1898, 3, HST or SCL
+01:508:272, History of the Caribbean since 1898, 3, HST or SCL
+01:508:280, Native American History I, 3, HST
+01:508:282, Modern Native American History, 3, HST or SCL
+01:508:367, The Afro-Latin American Experience, 3, HST
+01:508:381, Ancient Kingdoms: A History of the Aztecs, Incas and Mayas, 3, HST
+01:510:101, Development of Europe I, 3, HST
+01:510:102, Development of Europe II, 3, HST
+01:510:205, History of the Byzantine Empire, 3, HST
+01:510:207, Byzantine Civilization, 3, HST
+01:510:224, Europe: Gender, Sex, and Society, 3, HST or SCL
+01:510:232, Fashion & Design in Europe: Between the West and the World, 3, HST
+01:510:245, The Arts of Power: Ritual, Myth, and Propaganda, 4, HST or SCL
+01:510:248, The Last Climate Crisis: Histories of the “Little Ice Age”, c.1300-1800, 3, HST
+01:510:253, History of Witchcraft and Magic, 3, HST
+01:510:261, History of the Holocaust, 3, HST
+01:510:263, Between Nazism and Communism, 3, HST
+01:510:268, Fascism, 3, CCO, HST
+01:510:269, Antisemitism, 3, CCD, HST
+01:510:330, The Spanish Civil War, 3, HST, WCD
+01:510:313, Muslims, Christians, and Jews in Medieval Spain, 3, HST, WCD
+01:510:368, Zionism: Meanings and Challenges, 3, HST
+01:512:103, Development of the United States I, 3, HST
+01:512:104, Development of the United States II, 3, HST
+01:512:111, Race, Place, and Space in American History, 3, HST
+01:512:205, The American Presidency, 3, HST
+01:512:216, Famous Trials, 3, CCD, HST
+01:512:221, Abortion: The Collision of History, Law, Religion, Medicine, and Human Rights in the 20th and 21st Centuries, 3, CCD, HST
+01:512:222, Religion, Law, and the American Constitution, 3, HST
+01:512:229, History of Medical Ethics, 3, HST
+01:512:231, American Jewish History, 3, HST
+01:512:235, Accidents and Disasters in the U.S. and the World, 3, HST
+01:512:237, Data & American Society: From Almanacs to Algorithms, 3, CCO, HST
+01:512:238, History of Homelessness: Unhoused Populations in US History, 3, CCD, HST
+01:512:250, Natives and Newcomers: Immigration and Migration in U.S. History, 3, CCD, HST
+01:512:253, Asian American History, 3, HST
+01:512:260, American Slavery, 3, HST
+01:512:262, African American History to 1877, 3, HST
+01:512:263, African-American History, 1877 to Present, 3, HST
+01:512:267, History of Black Travel and Migration, 3, CCD, HST
+01:512:268, Plantation to White House, 3, CCD, HST or SCL
+01:512:310, New Jersey History, 3, HST
+01:512:363, African American Women's History, 3, HST
+01:512:342, Policing in Black Communities: From Slavery to Mass Incarceration, 3, CCD, HST
+01:563:146, The Bible in Aramaic, 3, HST, AHp
+01:563:201, Jewish History I: Ancient and Medievalformerly Jewish History: Ancient and Medieval, 3, HST
+01:563:202, Jewish History II: Modernformely Jewish History: Modern, 3, HST
+01:563:205, History of the Modern Middle East, 3, HST or SCL
+01:563:206, Introduction to the Bible II: Prophets and Poetry, 3, HST, AHp
+01:563:208, Jewish-Muslim Relations: History and Culture, 3, HST
+01:563:220, Introduction to the Bible I: Torah and Prose (formerly Hebrew Bible), 3, HST, AHp
+01:563:223, New Testament, 3, HST
+01:563:231, American Jewish History, 3, HST
+01:563:261, History of the Holocaust, 3, HST
+01:563:269, Antisemitism, 3, CCD, HST
+01:563:270, Between Nazism and Communism, 3, HST
+01:563:280, Jerusalem Contested: A City's History from Jewish, Christian, and Muslim Perspectives, 3, HST
+01:563:282, Israeli-Palestinian Conflict, 3, CCD, HST
+01:563:307, Muslims, Christians, and Jews in Medieval Spain, 3, HST, WCD
+01:563:343, Zionism: Meanings and Challenges, 3, HST
+01:574:210, Introduction to Korean Culture, History and Society, 3, HST, WCr
+01:590:101, Latin America: An Introduction, 3, CCD, HST or SCL
+01:590:262, Modern Latin America, 3, HST
+01:590:265, Afro-Brazilian History, 3, HST
+01:590:367, The Afro-Latin American Experience, 3, HST
+01:590:381, Ancient Kingdoms: A History of the Aztecs, Incas and Mayas, 3, HST
+01:595:204, History of the Caribbean to 1898, 3, HST or SCL
+01:595:205, History of the Caribbean since 1898, 3, HST or SCL
+01:595:367, The Afro-Latin American Experience, 3, HST
+01:685:110, Political Islam: Present and Past, 3, CCO, HST
+01:685:130, Comics in the Middle East, 3, HST
+01:685:201, Islamic Civilization, 3, HST or SCL
+01:685:203, History of the Modern Middle East, 3, HST or SCL
+01:685:205, History of the Byzantine Empire, 3, HST
+01:685:207, Byzantine Civilization, 3, HST
+01:685:208, Jewish History: Ancient and Medievalformerly Jewish Society & Culture I: From Antiquity to the Middle Ages, 3, HST
+01:685:226(was 01:685:326), Islam, 3, HST, AHo
+01:685:280, Jerusalem Contested: A City's History from Jewish, Christian, and Muslim Perspectives, 3, HST
+01:685:282, Israeli-Palestinian Conflict, 3, CCD, HST
+01:685:306, Minorities of the Middle East, 3, CCD, HST
+01:685:336, History and Cultures of Iran, 3, HST
+01:685:359, Women and Politics in the Middle East, 3, HST or SCL
+01:730:344, Marx, Nietzsche, Freud, 3, HST, AHo
+01:730:368, Hindu Philosophy, 3, HST, AHo or AHp
+01:730:369, Buddhist Philosophy, 3, HST, AHo
+01:790:103, Comparative Politics, 3, HST or SCL
+01:790:106, Law and Politics, 3, HST or SCL
+01:790:120, Inequality, 3, CCO, SCL
+01:790:359, Women and Politics in the Middle East, 3, HST or SCL
+01:830:123, Soul Beliefs: Causes and Consequences, 4, CCO, HST
+01:840:123, The Bible in Aramaic, 3, HST, AHp
+01:840:125, Political Islam: Present and Past, 3, CCO, HST
+01:840:201, Introduction to the Bible: Torah and Prose (formerly Hebrew Bible), 3, HST, AHp
+01:840:202, New Testament, 3, HST
+01:840:206, Introduction to the Bible II: Prophets and Poetry, 3, HST, AHp
+01:840:211, Religion in Asia, 3, HST, AHo or AHp
+01:840:212, Religions of the Western World, 3, HST or SCL, AHo
+01:840:220, Abortion: The Collision of History, Law, Religion, Medicine, and Human Rights in the 20th and 21st Centuries, 3, CCD, HST
+01:840:222, The Question of God in Modern Culture, 3, HST, AHo
+01:840:213, Christianity: Origins, History, Contemporary Issues, 3, HST
+01:840:226(was 01:840:326), Islam, 3, HST, AHo
+01:840:229, Introduction to the Qur’an, 3, HST
+01:840:305, Apocalypse: Religious Movements and the End of Time, 3, HST, WCr or WCd
+01:840:306, Minorities of the Middle East, 3, CCD, HST
+01:840:314, The Origins of Western Morality, 3, HST, WCr or WCd
+01:840:316, Evangelicalism in the U.S., 3, HST, WCr or WCd
+01:840:319, Religion in American History, 3, HST, WCr or WCd
+01:840:368, Hindu Philosophy, 3, HST, AHo or AHp
+01:840:369, Buddhist Philosophy, 3, HST, AHo
+01:840:370, Buddhism, Society, and Politics in Southeast Asia, 3, HST, WCr or WCd
+01:840:373, Islam in/and America, 3, HST
+01:840:380, Religious Healing in the U.S., 3, HST, WCr or WCd
+01:840:381, Religion, Law, and the American Constitution, 3, HST
+01:988:224, Women and Gender in African History, 3, HST or SCL
+01:988:260, The Modern Girl, 3, HST
+11:550:101, Landscape Studies, 3, HST, AHp
+11:550:250, History of Landscape Architecture, 3, HST
+37:575:201, U.S. Labor and Work before the end of Reconstruction, 3, HST or SCL, WCr or WCd
+37:575:202, History of Labor and Work in the U.S. 1880 to 1945, 3, HST or SCL, WCr or WCd
+
+

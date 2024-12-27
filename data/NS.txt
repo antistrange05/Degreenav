@@ -1,0 +1,88 @@
+11:067:142, Animal Science, 3, NS
+11:067:250, Companion Animal Science, 3, NS
+01:070:102, Introduction to Human Evolution, 4, NS, HST
+01:070:111, Extinction, 4, CCO or CCD, NS
+01:070:201, Evolution and Human Behavior, 3, NS
+01:070:212, The Life of Primates, 3, NS
+01:070:215, Survey of Fossil Primates, 3, NS
+11:115:100, Molecules of Life: Biochemistry for Everyone, 3, CCO, NS
+01:119:101, General Biology, 4, NS
+01:119:102, General Biology, 4, NS
+01:119:103, Principles of Biology, 4, NS
+01:119:115, General Biology I, 4, NS
+01:119:116, General Biology II, 4, NS
+01:119:150, Biology, Society, and Biomedical Issues, 3, CCO, NS
+01:119:154, Genetics, Law, and Social Policy, 3, CCO, NS
+01:119:155, Human Genetics, 3, CCO, NS
+01:119:160, Biology, Society, and Ecological Issues, 3, CCO, NS
+01:119:182, Essentials of Human Reproduction, 3, NS
+01:119:199, Preparation for General Biology, 4, NS
+11:126:111, Ethical and Scientific Challenges in Biotechnology, 3, CCO, NS
+01:160:126, Chemistry of Art, 3, NS
+01:160:127, Impact of Chemistry, 3, CCO, NS
+01:160:128, Chemistry of Life, 3, NS
+01:160:159, General Chemistry for Engineers, 3, NS
+01:160:160, General Chemistry for Engineers, 3, NS
+01:160:161, General Chemistry, 4, NS
+01:160:162, General Chemistry, 4, NS
+01:160:163, Honors General Chemistry, 4, NS
+01:160:164, Honors General Chemistry, 4, NS
+11:216:101, Introduction to Ecology and Evolution, 3, NS
+11:216:110, Evolution, Disease, and Medicine, 3, NS
+11:216:115, Evolution of Sex & Gender in Animals, 3, CCO, NS
+11:216:199, Trees and the Environment, 3, NS
+11:375:101, Intro to Environmental Science, 3, CCO, NS
+11:370:202, World of Insects, 3, NS
+11:370:202, Insects & the Environment, 3, CCO, NS
+11:400:103, Science of Food, 3, NS
+11:400:104, Food and Health, 3, NS
+11:400:106, Food as Medicine, 3, NS
+01:450:101, Earth Systems, 3, CCO, NS
+01:450:102, Transforming the Global Environment, 3, CCO, NS
+01:450:213, The Global Climate System, 3, NS
+01:450:306, Global ecosystems and biodiversity, 3, NS
+01:460:100, Planet Earth, 3, NS
+01:460:101, Introductory Geology, 4, NS
+01:460:110, Sea Change: The Rise and Fall of Sea Level and the Jersey Shore, 3, CCO, NS
+01:460:111, Solving the Climate Crisis, 3, CCO, NS
+01:460:116, Building Blocks of the Solar System, 3, NS
+01:460:120, Introduction to Oceanography, 3, CCO, NS
+01:460:201, Earthquakes and Volcanoes, 3, NS
+01:460:202, Environmental Geology, 3, NS
+01:460:203, Building and Maintaining a Habitable Planet, 3, CCO, NS
+01:460:204, The Water Planet, 3, CCO, NS
+01:460:206, Dinosaurs, 3, NS
+01:460:207, Earth Resources and Sustainability, 3, CCO, NS
+01:460:212, Earth and Life through Time, 3, NS
+01:460:213, A Walk Through Time - The Evolution of Mammals, 3, NS
+01:460:222, Planet Mars the Next Frontier, 3, CCO, NS
+01:460:224, Geology of the Moons and Planets, 3, CCO, NS
+01:460:225, Astrobiology, 3, NS
+01:556:143, Energy and Climate Change, 3, CCO, NS
+11:628:114, Science, Psuedoscience and Society, 3, CCO, NS
+11:628:120, Introduction to Oceanography, 3, CCO, NS
+11:628:130, Sea Monsters and Weird Biology in the Ocean, 3, NS
+11:628:204, The Water Planet, 3, CCO, NS
+11:628:221, Human Interactions with the Coastal Ocean, 3, CCO, NS
+11:670:101(was 11:670:201), Introduction to Meteorology(formerly Elements of Meteorology), 3, NS, ITR
+11:670:102(was 11:670:202), Introduction to Climate Science(formerly Elements of Climatology), 3, NS
+11:680:101, Living in the Microbial World, 3, CCO, NS
+11:680:103, Microbial Products in a Sustainable Garden State and Beyond, 3, CCO, NS
+11:709:201, Culinary Nutrition, 3, NS
+11:709:255, Nutrition and Health, 3, CCO, NS
+11:776:170, Plants and People, 3, NS
+11:776:242, Plant Science, 3, NS
+01:750:106, Concepts of Physics for Humanities and Social Science Students, 3, NS
+01:750:109, Astronomy & Cosmology, 3, NS
+01:750:110, Astronomy & Cosmology, 3, NS
+01:750:140, The Greenhouse Effect, 3, CCO, NS
+01:750:193, Physics for the Sciences, 4, NS
+01:750:194, Physics for the Sciences, 4, NS
+01:750:201, Extended General Physics, 5, NS
+01:750:202, Extended General Physics, 5, NS
+01:750:203, General Physics, 3, NS
+01:750:204, General Physics, 3, NS
+01:750:227, Analytical Physics II-A, 3, NS
+01:750:228, Analytical Physics II-B, 3, NS
+01:750:271, Honors Physics I, 3, NS
+01:750:272, Honors Physics II, 3, NS
